@@ -1,0 +1,255 @@
+    1  ls
+    2  Ls
+    3  ls /data
+    4  pwd
+    5  mkdir learning_unix
+    6  ls
+    7  cd learning_unix
+    8  mkdir Outer_directory
+    9  cd Outer_directory
+   10  mkdir Inner_directory
+   11  cd Inner_directory
+   12  WSL --Shutdown
+   13  WSL -- shutdown
+   14  wsl --shutdown
+   15  [wsl2]
+   16  autoProxy=false
+   17  autoproxy=false
+   18  wsl -1 -v
+   19  wsl install
+   20  sudo apt install wsl
+   21  wsl --install
+   22  sudo apt install wsl
+   23  wsl -1 -v
+   24  LS
+   25  ls
+   26  ls /data
+   27  ls /
+   28  pwd
+   29  ls /
+   30  cd learning_unix
+   31  man
+   32  cd home
+   33  cd ..
+   34  man
+   35  man cat
+   36  sudo apt install git-all
+   37  sudo apt-get install install-info
+   38  git config --global user.name "Sam Jacob"
+   39  git config --global user.email samelisiwejacob@gmail.com
+   40  git config --list
+   41  cd /home/user/my_project
+   42  cd /home/sam/myproject
+   43  cd /home/sam/learning_unix
+   44  git init
+   45  git add *.c
+   46  git add LICENSE
+   47  git commit -m 'Initial project version'
+   48  git add *.c
+   49  git add jacob
+   50  git add Outer_directory
+   51  git commit -m 
+   52  git commit -m Outer_directory
+   53  git commit Outer_directory
+   54  git commit 'Outer_directory'
+   55  git commit -m 'Initial project version'
+   56  git add Inner_directory
+   57  git add Outer_directory
+   58  ls
+   59  git commit -m "Added Outer directory"
+   60  git add Outer_diretory
+   61  git add Outer_directory
+   62  touch Outer_directory/.gitkeep
+   63  git add Outer_directory/.gitkeep
+   64  git commit -m "Added Outer_directory with .gitkeep"
+   65  git clone https://github.com/libgit2/libgit2 mylibgit
+   66  git clone https://github.com/libgit2/libgit2
+   67  sam@server:path/to/repo.git
+   68  git clone https://github.com/libgit2/libgit2
+   69  git status
+   70  echo "Outer_directory" > README
+   71  git status
+   72  git add README
+   73  git status
+   74  git add CONTRIBUTING.md
+   75  git add CONTRIBUTING
+   76  git add README1
+   77  git checkout
+   78  git add CONTRIBUTING.md
+   79  git init
+   80  git add CONTRIBUTING.md
+   81  git status
+   82  add contributing.md
+   83  git add contributing.md
+   84  git status
+   85  git init
+   86  git add contributing.md
+   87  git status
+   88  ls
+   89  git add contributing.md
+   90  ls Outer_directory
+   91  git add contributing.md
+   92  ls
+   93  touch contributing.md
+   94  git add contibuting.md
+   95  git add contributing.md
+   96  git commit -m "Added contributing.md file"
+   97  git status
+   98  git diff
+   99  rm contributing.md
+  100  git status
+  101  git rm
+  102  GIT LOG
+  103  git log
+  104  git log -p -2
+  105  git status
+  106  git add contributing.md
+  107  git status
+  108  add contributing.md
+  109  git add contributing.md
+  110  q
+  111  git status
+  112  git add contributing.md
+  113  git restore
+  114  git clone https://github.com/schacon/ticgit
+  115  git remote 
+  116  git remote add pb https://github.com/paulboone/ticgit
+  117  git remote -v
+  118  git remote
+  119  git fetch pb
+  120  git remote -v
+  121  git fetch pb
+  122  git fetch <remote>
+  123  git fetch origin
+  124  git pull
+  125  git remote show origin
+  126  git config --global alias.co checkout
+  127  git config --global alias.br branch
+  128  git config --global alias.ci commit
+  129  git config --global alias.st status
+  130  git br testing
+  131  git log --oneline -decorate
+  132  git log --oneline --decorate
+  133  git branch testing
+  134  git checkout testing
+  135  vim test.rb
+  136  git checkout master
+  137  git log testing  --all
+  138  git log --oneline --decorate --graph --all
+  139  cd home
+  140  cd sam
+  141  git checkout -b iss53
+  142  vim index.html
+  143  git checkout master
+  144  git checkout -b hotfix
+  145  vim index.html
+  146  git checkout master
+  147  git merge hotfix
+  148  git branch -d hotfix
+  149  git checkout iss53
+  150  vim index.html
+  151  git checkout master
+  152  git merge iss53
+  153  git branch -d iss53
+  154  git merge iss53
+  155  git status
+  156  git mergetool
+  157  git branch
+  158  git branch -v
+  159  git branch --merged
+  160  git branch --no-merged
+  161  git branch --all
+  162  git init my-repo
+  163  cd my-repo
+  164  touch README.md
+  165  git add README.md
+  166  git commit -m "add README to initial commit"
+  167  git remote add origin https://github.com/samelisiwejacob0816/gitexercise.git
+  168  git push --set-upstream origin main
+  169  git branch
+  170  git push origin master
+  171  sudo apt-get install ca-certificates
+  172  sudo update-ca-certificates
+  173  git remote add origin https://github.com/samelisiwejacob0816/gitexercises.git
+  174  git push --set-upstream origin main
+  175  git push --set-upstream origin master
+  176  sudo apt update
+  177  sudo apt install ca-certificates
+  178  sudo update-ca-certificates
+  179  git push origin master
+  180  git branch
+  181  git push origin master
+  182  git config --global http.sslVerify false
+  183  git push origin master
+  184  jacob0816
+  185  cd my-repo
+  186  cd gitexercise
+  187  cd
+  188  mkdir git-basic-exercises
+  189  cd git-basic-exercises
+  190  ls -a
+  191  git init
+  192  ls -a
+  193  git status
+  194  touch README.md
+  195  ls -a
+  196  git status
+  197  git log
+  198  git add README
+  199  git add README.md
+  200  git status
+  201  git rm --cached README.md
+  202  git status
+  203  git add README.md
+  204  git commit -m "initial commit"
+  205  git log
+  206  q
+  207  nano README.md
+  208  cat README.md
+  209  git status
+  210  git commit -m "second commit"
+  211  git status
+  212  git log
+  213  cat README.md
+  214  git status
+  215  git commit -m "second commmit"
+  216  git log --oneline
+  217  git add README.md
+  218  git commit -m "second commit"
+  219  git commit -m "third commit"
+  220  git add README.md
+  221  git commit -m "third commit"
+  222  git log
+  223  git add README.MD
+  224  git add README.md
+  225  git commit -m "third commit"
+  226  nano README.md
+  227  cat README.md
+  228  git commit -m "third commit"
+  229  git add README.md
+  230  git commit -m "third commit"
+  231  git log
+  232  git checkout 1acde7f0a17e68f57919c3f81bfc8f98fa34c739
+  233  cat README.md
+  234  git checkout main
+  235  cat README.md
+  236  git checkout master
+  237  cat README.md
+  238  git branch
+  239  git branch milkshake-flavours
+  240  git branch
+  241  git checkout milkshake-flavours
+  242  git branch
+  243  nano milkshakes.md
+  244  git status
+  245  git add milkshakes.md
+  246  git commit -m "added initial flavours"
+  247  git log
+  248  git checkout master
+  249  git log
+  250  git branch history
+  251  git checkout history
+  252  git log
+  253  git branch
+  254  history.txt
+  255  history>history.txt
